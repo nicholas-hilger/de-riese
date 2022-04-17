@@ -28,6 +28,11 @@
             <string>gun_enum()
 global.gun_index = ds_grid_create(gun.total,gun_stat.total)
 init_guns()
+
+for(i = 0; i &lt; reload; i++)
+{
+    audio_sound_gain(i, 0.6, 0)
+}
 </string>
           </argument>
         </arguments>

@@ -287,10 +287,10 @@ if(shoot_key and shoot_cooldown = 0 and !sprint_key)
                     crit = player.gun_crit
                     velocity = irandom(12) + 12
                 }
-                shoot_cooldown = gun_rof
-                mag[current_wep]--
-                audio_play_sound(gun_sound, 1, 0)
             }
+            shoot_cooldown = gun_rof
+            mag[current_wep]--
+            audio_play_sound(gun_sound, 1, 0)
         }
         else
         {
