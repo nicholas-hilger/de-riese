@@ -1,0 +1,11 @@
+add_gun(gun.none, "None", 0, 0, 0, 0, 0, 0, 0, so_m1911, s_m1911)
+
+add_gun(gun.m1911, "M1911", 20, 20, 85, 5, 8, 64, 30, so_m1911, s_m1911)
+add_gun(gun.gewehr43, "Gewehr 43", 60, 45, 85,15, 10, 120, 90, so_gewehr, s_gewehr)
+add_gun(gun.boomstick, "Boomstick", 15, 15, 60, 10, 2, 60, 30, so_shotgun, s_boomstick)
+add_gun(gun.trenchgun, "Trench Gun", 25, 45, 70, 10, 6, 60, 75, so_shotgun, s_trenchgun)
+add_gun(gun.mp40, "MP40", 40, 10, 75, 5, 32, 320, 60, so_mp40, s_mp40)
+add_gun(gun.fg42, "FG42", 70, 7, 80, 2, 32, 192, 60, so_fg42, s_fg42)
+add_gun(gun.thomspon, "Thompson", 15, 5, 75, 3, 20, 180, 75, so_thompson, s_thompson)
+add_gun(gun.ppsh41, "PPSh41", 15, 3, 85, 2, 71, 284, 60, so_ppsh41, s_ppsh41)
+add_gun(gun.ptrs41, "PTRS-41", 500, 40, 95, 15, 5, 60, 75, so_ptrs, s_ptrs)
